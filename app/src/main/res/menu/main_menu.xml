@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_youtube_searched_for_24"/>
+    <item
+        android:id="@+id/cat"
+        android:title="Categories"
+        android:icon="@drawable/ic_baseline_category_24"/>
+    <item
+        android:id="@+id/locaton"
+        android:title="Location"
+        android:icon="@drawable/ic_baseline_location_on_24"/>
+
+</group>
+    <item android:title="Profile">
+        <menu >
+            <group android:checkableBehavior="single">
+                <item android:title="Login"
+                    android:id="@+id/login"
+                    android:icon="@drawable/login"/>
+                <item android:title="Profile"
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_baseline_person_pin_24"/>
+                <item android:title="Logout"
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout"/>
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="Share">
+        <menu >
+            <group >
+                <item android:title="Share"
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_baseline_share_24"/>
+                <item android:title="Rate Us"
+                    android:id="@+id/rateus"
+                    android:icon="@drawable/ic_baseline_rate_review_24"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

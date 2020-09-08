@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:id="@+id/splash_Img"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="100dp"
+       android:layout_marginLeft="10dp"
+       android:transitionName="logo_img"
+       android:layout_marginRight="10dp"
+       android:src="@drawable/butterfly"/>
+    <TextView
+        android:id="@+id/app_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:transitionName="logo_name"
+        android:textColor="@color/white"
+        android:text="ButterFly"/>
+    <TextView
+        android:id="@+id/app_Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:transitionName="logo_title"
+        android:gravity="center"
+        android:text="New ButterFly App"/>
+
+</LinearLayout>
